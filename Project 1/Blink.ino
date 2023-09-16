@@ -36,7 +36,7 @@ void loop() {
   delay(1000);
 }
 
-void beep() { //defined a variable for beeping after light turned green
+void beep() { //define a function for beeping after light turned green
     for (int i = 0; i < 6; ++i) { // loop
    tone(BUZZERPIN, 200, 100); 
    delay(1000);
